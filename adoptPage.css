@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2a9d8f;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('shelter.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+.adoptable-pets {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.adoptable-pets h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pet-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pet-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pet-card h3 {
+    margin-top: 10px;
+}
+
+.pet-card p {
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8ecae6;
+    color: #023047;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.about, .contact {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.about p, .contact form {
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
