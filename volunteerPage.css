@@ -1,0 +1,42 @@
+body {
+#f9f9f9;
+  padding: 20px;
+}
+
+.payment-methods {
+  width: 300px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.payment-methods h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.payment-option {
+  display: flex;
+  /*align-items: center;*/
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.payment-option input {
+  margin-right: 10px;
+}
+
+.payment-option .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.payment-option img.icon {
+  width: 24px;
+  height: auto;
+}
